@@ -1,0 +1,39 @@
+.menu-container {
+  background-color: purple;
+  padding: 50px;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  margin-right: 10px;
+}
+
+.menu-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: 1px solid yellow;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.menu-link:hover {
+  background-color: yellow;
+  color: purple;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-list {
+    flex-direction: column;
+  }
+
+  .menu-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

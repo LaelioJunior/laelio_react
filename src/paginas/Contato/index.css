@@ -1,0 +1,32 @@
+.contato-container {
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.redes-sociais {
+  margin-top: 20px;
+}
+
+.redes-sociais a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #333;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.redes-sociais a svg {
+  width: 30px;
+  height: 30px;
+}
+
+.redes-sociais a:hover {
+  color: #007bff;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
